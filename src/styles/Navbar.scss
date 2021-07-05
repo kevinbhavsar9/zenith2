@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburger {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  // background-color: #268ff1;
+  position: relative;
+  left: 20px;
+}
+.hamburger:before {
+  // margin-bottom: 3px;
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -10px;
+  left: 00px;
+}
+.hamburger:after {
+  content: "";
+  width: 15px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+#navbar:hover {
+  cursor: pointer;
+}
+#menubtn {
+  z-index: 9999;
+}
+#logo-cont {
+  z-index: 9999;
+}
+
+.blue {
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: relative;
+  background-color: #268ff1;
+  left: 20px;
+}
+
+.blue:before {
+  // margin-bottom: 3px;
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #268ff1;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.blue:after {
+  content: "";
+  width: 15px;
+  height: 3px;
+  background-color: #268ff1;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.bluelogo {
+  background-color: #268ff1;
+}
+
+#navbar-cont {
+  // background-color: blue;
+  padding: 20px 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 9998;
+}

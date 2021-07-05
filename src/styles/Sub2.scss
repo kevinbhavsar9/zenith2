@@ -1,0 +1,46 @@
+#containerSub2 {
+  margin: 200px 0px;
+  display: flex;
+  //   padding: 40px;
+  color: white;
+  #child1 {
+    width: 40%;
+    margin-left: 100px;
+    #rect {
+      position: absolute;
+      z-index: -1;
+    }
+    h1 {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 57px;
+      margin-left: 35px;
+      width: 107%;
+    }
+    p {
+      width: 80%;
+      margin-left: 35px;
+    }
+    #button {
+      background-color: white;
+      width: 224px;
+      margin-top: 40px;
+      button {
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border: white;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        // line-height: 21px;
+      }
+    }
+  }
+  #child2 {
+    margin-left: 140px;
+  }
+}
