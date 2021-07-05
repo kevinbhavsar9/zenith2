@@ -3,6 +3,7 @@ import Navbar from "./components/Navabar";
 import NavMenu from "./components/NavbarMenu";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
+import "../src/styles/mobile.scss";
 
 class App extends Component {
   constructor() {
