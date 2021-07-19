@@ -26,7 +26,7 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App" data-aos="fade-up">
+      <div className="App">
         {this.state.NavMenu && <NavMenu />}
         <Navbar
           NavMenu={this.state}
