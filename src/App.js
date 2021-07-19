@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navabar";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import NavMenu from "./components/NavbarMenu";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
@@ -12,12 +14,19 @@ class App extends Component {
       NavMenu: false,
     };
   }
+  componentDidMount() {
+    // or simply just AOS.init();
+    AOS.init({
+      // initialise with other settings
+      duration: 2000,
+    });
+  }
   handleChangeState = (val) => {
     this.setState({ ...this.state, NavMenu: val });
   };
   render() {
     return (
-      <div className="App">
+      <div className="App" data-aos="fade-up">
         {this.state.NavMenu && <NavMenu />}
         <Navbar
           NavMenu={this.state}

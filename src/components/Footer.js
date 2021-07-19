@@ -44,6 +44,7 @@ export default class Footer extends Component {
               <p>Documentation</p>
               <p>Smart Contract Specs.</p>
               <p>Connect to Metamask</p>
+              <p>ZRC Token Specifications</p>
             </div>
           </div>
         </div>

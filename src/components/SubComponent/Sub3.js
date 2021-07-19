@@ -9,8 +9,8 @@ class Sub3 extends Component {
   render() {
     return (
       <div id="sub3">
-        <div id="sub3-child1">
-          <img src={Sub3Img} />
+        <div id="sub3-child1" data-aos="fade-down">
+          <img src={Sub3Img} className="floating" />
         </div>
         <div id="sub3-child2">
           <h1>Securely store Zenith Coin with Zenith Wallet.</h1>
@@ -21,14 +21,15 @@ class Sub3 extends Component {
             trusted as concepts belt.
           </p>
           <div id="sub3-btn-cont">
-            <div className="sub3Btn">
+            {/* <div className="sub3Btn">
               <img src={play} />
               <button>Play Store</button>
             </div>
             <div className="sub3Btn">
               <img src={apple} />
               <button>App Store</button>
-            </div>
+            </div> */}
+            <h3>Wallet Coming Soon...</h3>
           </div>
         </div>
       </div>

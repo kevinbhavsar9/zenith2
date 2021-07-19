@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import planet from "../../assets/planet.svg";
 import arrow from "../../assets/arrow.svg";
 import Rectangle from "../../assets/Rectangle.svg";
@@ -6,7 +7,7 @@ import "../../styles/Sub2.scss";
 class Sub2 extends Component {
   render() {
     return (
-      <div id="containerSub2">
+      <div id="containerSub2" data-aos="fade-down">
         <div id="child1">
           <img id="rect" src={Rectangle} />
           <h1>Powering up everything with a hybrid blockchain</h1>
@@ -20,7 +21,7 @@ class Sub2 extends Component {
             <img src={arrow} />
           </div>
         </div>
-        <div id="child2">
+        <div id="child2" className="rotateIn">
           <img src={planet} />
         </div>
       </div>

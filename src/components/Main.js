@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Sub1 from "./SubComponent/Sub1";
 import Sub2 from "./SubComponent/Sub2";
 import Sub3 from "./SubComponent/Sub3";
@@ -11,7 +12,7 @@ class Main extends Component {
         <Sub1 />
         <Sub2 />
         <Sub3 />
-        <Sub4 />
+        {/* <Sub4 /> */}
         <Sub5 />
       </div>
     );
