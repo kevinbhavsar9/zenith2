@@ -28,23 +28,45 @@ export default class Footer extends Component {
           <div className="footer-col-2">
             <div className="footer-link-col">
               <h3>Individuals</h3>
-              <p>Zenith Coin (ZTC)</p>
-              <p>Zenith Wallet</p>
-              <p>Zenith Exchange</p>
-              <p>Connect to Metamask</p>
+              <a href="https://zenithchian.co">
+                <p>Zenith Chain (ZTC)</p>
+              </a>
+              {/* <a href="https://docs.zenithchain.co">
+                <p>Zenith Wallet</p>
+              </a> */}
+              <a href="https://docs.zenithchain.co">
+                <p>Zenith Exchange</p>
+              </a>
+              <a href="https://docs.zenithchain.co/Wallet">
+                <p>Connect to Metamask</p>
+              </a>
             </div>
             <div className="footer-link-col">
               <h3>For Businesses</h3>
-              <p>Zenith Exchange API</p>
-              <p>Zenith Wallet API</p>
+              <a href="https://docs.zenithchain.co">
+                <p>Zenith Exchange API</p>
+              </a>
+              <a href="https://docs.zenithchain.co/Wallet">
+                <p>Zenith Wallet API</p>
+              </a>
             </div>
             <div className="footer-link-col">
               <h3>For Developer</h3>
-              <p>Zenith Chain API</p>
-              <p>Documentation</p>
-              <p>Smart Contract Specs.</p>
-              <p>Connect to Metamask</p>
-              <p>ZRC Token Specifications</p>
+              <a href="https://docs.zenithchain.co">
+                <p>Zenith Chain API</p>
+              </a>
+              <a href="https://docs.zenithchain.co">
+                <p>Documentation</p>
+              </a>
+              <a href="https://docs.zenithchain.co/Contract">
+                <p>Smart Contract Specs.</p>
+              </a>
+              <a href="https://docs.zenithchain.co/Wallet">
+                <p>Connect to Metamask</p>
+              </a>
+              <a href="https://docs.zenithchain.co/Token">
+                <p>ZRC Token Specifications</p>
+              </a>
             </div>
           </div>
         </div>
