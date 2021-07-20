@@ -10,7 +10,7 @@ import TelegramIcon from "@material-ui/icons/Telegram";
 class Sub5 extends Component {
   render() {
     return (
-      <div className="sub5" data-aos="fade-down">
+      <div className="sub5" id="sub5" data-aos="fade-down">
         <h1>Don’t miss out, Stay updated</h1>
         <p>Connect with us through Social Media Links given Below:</p>
         {/* <div id="input-cont">

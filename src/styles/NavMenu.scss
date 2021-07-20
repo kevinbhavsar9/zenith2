@@ -11,12 +11,23 @@
 }
 .menu-items {
   position: absolute;
-  right: 816px;
+  right: 585px;
   top: 251px;
+  width: 25rem;
 
   //   color: red;
   .menu-items-name {
     color: black;
+    padding: 2px;
+    label {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        color: rgb(7, 122, 216);
+      }
+    }
   }
 }
 

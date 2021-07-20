@@ -12,19 +12,29 @@ class NavbarMenu extends Component {
         <div id="contents">
           <div className="py-3 px-3 menu-items">
             <div className="menu-items-name">
-              <label>Home</label>
+              <label>
+                <a href="#containerSub1">Buy Zenith Coin</a>
+              </label>
             </div>
             <div className="menu-items-name">
-              <label>Usage</label>
+              <label>
+                <a href="#containerSub2">Learn About Zenith Chian</a>
+              </label>
             </div>
             <div className="menu-items-name">
-              <label>About Us</label>
+              <label>
+                <a href="#sub3">Zenith Wallet</a>
+              </label>
             </div>
             <div className="menu-items-name">
-              <label>Roadmap</label>
+              <label>
+                <a href="#sub5">Connect With Us</a>
+              </label>
             </div>
             <div className="menu-items-name">
-              <label>Contact</label>
+              <label>
+                <a href="#footer">Contact Us</a>
+              </label>
             </div>
           </div>
           <img id="nav-blue-box" src={bluebox} />

@@ -4,7 +4,11 @@ import Logo from "../assets/logo-primary.svg";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="container py-8 text-dark footer" style={{ padding: 70 }}>
+      <div
+        className="container py-8 text-dark footer"
+        id="footer"
+        style={{ padding: 70 }}
+      >
         <div className="footer-row">
           <div className="footer-col-1">
             <div className="footer-logo-group text-primary">
@@ -28,43 +32,43 @@ export default class Footer extends Component {
           <div className="footer-col-2">
             <div className="footer-link-col">
               <h3>Individuals</h3>
-              <a href="https://zenithchian.co">
+              <a target="_blank" href="https://zenithchain.co">
                 <p>Zenith Chain (ZTC)</p>
               </a>
-              {/* <a href="https://docs.zenithchain.co">
+              {/* <a target="_blank" href="https://docs.zenithchain.co">
                 <p>Zenith Wallet</p>
               </a> */}
-              <a href="https://docs.zenithchain.co">
+              <a target="_blank" href="https://docs.zenithchain.co">
                 <p>Zenith Exchange</p>
               </a>
-              <a href="https://docs.zenithchain.co/Wallet">
+              <a target="_blank" href="https://docs.zenithchain.co/Wallet">
                 <p>Connect to Metamask</p>
               </a>
             </div>
             <div className="footer-link-col">
               <h3>For Businesses</h3>
-              <a href="https://docs.zenithchain.co">
+              <a target="_blank" href="https://docs.zenithchain.co">
                 <p>Zenith Exchange API</p>
               </a>
-              <a href="https://docs.zenithchain.co/Wallet">
+              <a target="_blank" href="https://docs.zenithchain.co/Wallet">
                 <p>Zenith Wallet API</p>
               </a>
             </div>
             <div className="footer-link-col">
               <h3>For Developer</h3>
-              <a href="https://docs.zenithchain.co">
+              <a target="_blank" href="https://docs.zenithchain.co">
                 <p>Zenith Chain API</p>
               </a>
-              <a href="https://docs.zenithchain.co">
+              <a target="_blank" href="https://docs.zenithchain.co">
                 <p>Documentation</p>
               </a>
-              <a href="https://docs.zenithchain.co/Contract">
+              <a target="_blank" href="https://docs.zenithchain.co/Contract">
                 <p>Smart Contract Specs.</p>
               </a>
-              <a href="https://docs.zenithchain.co/Wallet">
+              <a target="_blank" href="https://docs.zenithchain.co/Wallet">
                 <p>Connect to Metamask</p>
               </a>
-              <a href="https://docs.zenithchain.co/Token">
+              <a target="_blank" href="https://docs.zenithchain.co/Token">
                 <p>ZRC Token Specifications</p>
               </a>
             </div>
