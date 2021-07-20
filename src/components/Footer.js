@@ -25,9 +25,12 @@ export default class Footer extends Component {
                 Zenith Chain
               </h2>
             </div>
-            <p>Contact TipStack Inc. regarding product and its distribution.</p>
+            <p>
+              Contact Zenith Chian Limited. regarding product and its
+              distribution.
+            </p>
             <p>Email: info@zenithchain.co</p>
-            <p>Address: 651 N Broad St Suite 206 Middletown, DE 19709</p>
+            <p>Address: vytauto str33, Vilnius Lithuania</p>
           </div>
           <div className="footer-col-2">
             <div className="footer-link-col">
@@ -78,8 +81,8 @@ export default class Footer extends Component {
           <hr className="hr" />
         </div>
         <p className="bold text-center pt-4 m-0" id="copyrights">
-          &copy; 2021 All right researved by Zenith Chain and its owner TipStack
-          Inc.
+          &copy; 2021 All right reserved by Zenith Chain and its owner Zenith
+          Chian Limited.
         </p>
 
         {/*

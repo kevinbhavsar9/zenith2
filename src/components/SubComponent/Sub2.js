@@ -17,7 +17,9 @@ class Sub2 extends Component {
             trusted as concepts belt.
           </p>
           <div id="button">
-            <button>Learn More About It</button>
+            <a href="https://docs.zenithchain.co" target="_blank">
+              <button>Download White Paper</button>
+            </a>
             <img src={arrow} />
           </div>
         </div>

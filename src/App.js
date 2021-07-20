@@ -24,6 +24,9 @@ class App extends Component {
   handleChangeState = (val) => {
     this.setState({ ...this.state, NavMenu: val });
   };
+  handleChangeMain = () => {
+    console.log("asas");
+  };
   render() {
     return (
       <div className="App">
