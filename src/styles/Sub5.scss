@@ -1,5 +1,5 @@
 .sub5 {
-  z-index: -2;
+  // z-index: -2;
   position: relative;
   color: #ffffff;
   width: 60%;
@@ -32,6 +32,9 @@
     // width: 60%;
     font-size: 1.2rem;
     margin-top: 80px;
+  }
+  a {
+    color: white;
   }
   #input-cont {
     padding: 15px;

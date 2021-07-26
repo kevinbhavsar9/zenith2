@@ -18,10 +18,21 @@ class Sub5 extends Component {
           <button>Subscribe</button>
         </div> */}
         <div style={{ marginTop: 20 }}>
-          <LinkedInIcon className="Sub5-icons" />
-          <FacebookIcon className="Sub5-icons" />
-          <TwitterIcon className="Sub5-icons" />
-          <TelegramIcon className="Sub5-icons" />
+          <a
+            href="https://www.linkedin.com/company/zenith-chain/"
+            target="_blank"
+          >
+            <LinkedInIcon className="Sub5-icons" />
+          </a>
+          <a href="https://t.me/zenithchain" target="_blank">
+            <TelegramIcon className="Sub5-icons" />
+          </a>
+          <a href="https://twitter.com/zenithchain_co" target="_blank">
+            <TwitterIcon className="Sub5-icons" />
+          </a>
+          {/* <FacebookIcon className="Sub5-icons" /> */}
+          {/* <TwitterIcon className="Sub5-icons" />
+          <TelegramIcon className="Sub5-icons" /> */}
         </div>
         <img id="globe" src={globe} />
       </div>
